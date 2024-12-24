@@ -23,6 +23,7 @@ public class DefaultService {
     private final Logger log = LoggerFactory.getLogger(this.getClass().getSimpleName());
     @Autowired
     private DatasourceProperties datasourceProperties;
+    
     public Boolean isAppLive = false;
     public Boolean isAppReady = false;
 
